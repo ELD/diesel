@@ -7,7 +7,7 @@ description = "Internal implementation of diesels migration mechanism"
 homepage = "https://diesel.rs"
 
 [dependencies]
-barrel = { version = ">= 0.5.0", optional = true, features = ["diesel"] }
+barrel = { path = "../../../barrel", optional = true, features = ["diesel"] }
 
 [dependencies.diesel]
 version = "~1.4.0"
